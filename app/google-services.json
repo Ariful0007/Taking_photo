@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "526582981449",
+    "firebase_url": "https://taking-photo.firebaseio.com",
+    "project_id": "taking-photo",
+    "storage_bucket": "taking-photo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526582981449:android:d910e4b349a77670433098",
+        "android_client_info": {
+          "package_name": "com.example.taking_photo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526582981449-7e6dsgmphc2j489l4m3va8h7m6f7q7r9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOmfHWrFG80iZ7cw8ATtripFH3SSi0Cn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526582981449-7e6dsgmphc2j489l4m3va8h7m6f7q7r9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

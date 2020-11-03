@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:id="@+id/iamge"
+
+    ></ImageView>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/iamge"
+        android:id="@+id/text_display"
+        android:hint="Display Text"
+        android:padding="10dp"
+        android:maxLines="5"
+        android:textAllCaps="false"
+        android:textSize="26sp"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:background="@color/gray"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+
+        ></TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_4"
+        android:layout_below="@id/text_display"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/capture"
+        android:text="Take Photo"
+        ></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_4"
+        android:layout_below="@id/capture"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/test"
+        android:text="Detect Text"
+        ></Button>
+
+</RelativeLayout>
